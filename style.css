@@ -877,11 +877,12 @@ z-index:-1;
 .main-service .boxes{
      display:grid;
     grid-template-columns: repeat(1,270px);
+    gap:30px;
 }
 .main-service{
      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
               url('background.jpg') no-repeat center center/cover;
-              height:1100px;
+              height:1150px;
 }
 .choose-section{
     display:grid;
@@ -921,7 +922,7 @@ z-index:-1;
 .section5 .trainers{
     grid-template-columns:repeat(1,100px);
     place-items:center;
-    gap:70px;
+    gap:80px;
 }
 .clientreview {
     height:420px;
@@ -948,5 +949,40 @@ z-index:-1;
 }
 .latest-resource{
     grid-template-columns:repeat(1,270px);
+}
+.hero-image h1{
+    padding:10px;
+    position: absolute;
+    top:30%;
+      font-family: 'Poppins',sans-serif;
+      line-height: normal;
+      font-size:18px;
+}
+.hero-image p{
+    position: absolute;
+    top:50%;
+    line-height: 2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#fff;
+
+}
+.hero-image .button{
+    position: absolute;
+    top:70%;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    width:200px;
+    line-height: 1.5;
+}
+.about-section p{
+    font-family:'Montserrat',sans-serif;
+    padding:0 10px;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+.about-section li{
+    font-family:'Montserrat',sans-serif;
 }
 }
